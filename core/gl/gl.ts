@@ -1,6 +1,6 @@
 ﻿namespace TSE {
-    export var gl: WebGLRenderingContext;
 
+    export var gl: WebGLRenderingContext;
     //klasa odpowiadająca za ustawienie renderu WebGL
     export class GLUtilities {
         public static initialize(elementId?: string): HTMLCanvasElement {
